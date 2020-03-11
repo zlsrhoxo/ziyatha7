@@ -187,7 +187,7 @@ margin: 0 auto;
   margin: 40px;
 }
 #rat{
-  background-image: linear-gradient(rgba(95,52,124,0.8), rgba(44,94,117,0.8)), url("../images/building.jpeg");
+  background-image: linear-gradient(rgba(95,52,124,0.8), rgba(44,94,117,0.8)), url("building.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 
