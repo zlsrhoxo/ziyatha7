@@ -57,7 +57,11 @@ text-decoration: none;
 }
 h1{
   margin-top: 99px;
-
+font-size: 50px;
+width: 500px;
+}
+.best p{
+  margin-left: 20px;
 }
 
 .item{
@@ -66,18 +70,19 @@ h1{
 }
 
 .btn-1{
-  background: #3764a5;
+  background: #387681;
   color: white;
   min-height: 30px;
-width: 90px;
+width: 100px;
+padding: 10px;
 
 }
 .btn-2{
-background: #8e1e97;
+background: #97628e;
   color: white;
   min-height: 30px;
-  width: 90px;
-
+  width: 100px;
+padding: 10px;
 }
 
 #menuitem{
@@ -86,8 +91,8 @@ background: #8e1e97;
 
 #menu-content{
 
-  background-color: #edf0f7;
-
+  background-color: #e9eef1;
+font-size: 12px;
 }
 
 h4{
@@ -109,10 +114,12 @@ span{
 .lol li a{
 
   text-decoration: none;
+color: #08465a;
 
 }
 .lol{
   text-align: center;
+
 }
 .box{
 background-size: cover;
@@ -134,7 +141,7 @@ justify-content:center;
 .flex img{
   height: 300px;
   margin: 15px;
-  border: 1px solid black;
+  border: 1px solid white;
   width: 20%;
   height: 50%;
 }
@@ -149,7 +156,7 @@ justify-content:center;
 .flex2 img{
   height: 300px;
   margin: 15px;
-  border: 1px solid black;
+  border: 1px solid white;
   width: 20%;
   height: 50%;
 }
@@ -161,6 +168,7 @@ text-align: center;
 }
 .btn{
   text-align: center;
+  /* width: 200px; */
 }
 .mouse1{
   width: 200px;
@@ -179,7 +187,7 @@ margin: 0 auto;
   margin: 40px;
 }
 #rat{
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/building.jpeg");
+  background-image: linear-gradient(rgba(95,52,124,0.8), rgba(44,94,117,0.8)), url("../images/building.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -206,7 +214,7 @@ hr{
 }
 #newsletter{
   display: flex;
-  background: #0c3e4e;
+  background: #398199;
   color: white;
 }
 .last{
@@ -239,9 +247,11 @@ float: right;
     height: 25px;
   width: 150px;
   border-radius: 4px;
+
 }
 .touch{
   background: #93dbe6;
+  border-color: #93dbe6;
   border-radius: 4px;
   color: white;
   height: 25px;
